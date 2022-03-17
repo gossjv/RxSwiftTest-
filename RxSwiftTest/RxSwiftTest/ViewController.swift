@@ -8,6 +8,8 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import FirebaseRemoteConfig
+import FirebaseFirestore
 
 struct Product {
     var imageName: String
@@ -43,6 +45,8 @@ class ViewController: UIViewController {
     
     private var bag = DisposeBag()
     
+    private var  bd = Firestore.firestore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
@@ -64,6 +68,9 @@ class ViewController: UIViewController {
         // Bind a model selected handler
         tableView.rx.modelSelected(Product.self).bind { product in
             print(product.title)
+            self.bd.collection("icons").document("Image").setData([
+            product.imageName : product.title])
+            
         }.disposed(by: bag)
         // fetch items
         viewModel.fetchItems()

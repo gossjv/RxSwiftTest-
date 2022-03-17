@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>35137306762-smk6kmfsaiojct8uh7aebfdv4gbkanr0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.35137306762-smk6kmfsaiojct8uh7aebfdv4gbkanr0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDWbEG5wEa5YToNLcqtZjA968g2TENIjyI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>35137306762</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pedrovalderrama.testingSi123.RxSwiftTest</string>
+	<key>PROJECT_ID</key>
+	<string>rxswifttest-e22b2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rxswifttest-e22b2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:35137306762:ios:fbd6c2509ed61dfd31ad73</string>
+</dict>
+</plist>
